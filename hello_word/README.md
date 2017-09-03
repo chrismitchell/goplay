@@ -4,14 +4,14 @@ Our first program will print the classic “hello world” message. Here’s the
 
 To run the program, put the code in hello-world.go and use go run.
 
-```shell
+```sh
 $ go run hello-world.go
 hello world
 ```
 
 Sometimes we’ll want to build our programs into binaries. We can do this using go build.
 
-```shell
+```sh
 $ go build hello-world.go
 $ ls
 hello-world	hello-world.go
@@ -19,7 +19,7 @@ hello-world	hello-world.go
 
 We can then execute the built binary directly.
 
-```shell
+```sh
 $ ./hello-world
 hello world
 ```
